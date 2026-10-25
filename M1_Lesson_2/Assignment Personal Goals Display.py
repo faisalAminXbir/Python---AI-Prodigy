@@ -11,6 +11,7 @@ import keyword
 
 # ---------- PART 2: ask the three questions ----------
 
+# YOUR CODE HERE
 person_name = input("Enter your name: ")
 goal_name = input("Enter one skill you want to get better at: ")
 target_month = input("Enter the month you want to reach it by: ")
@@ -22,19 +23,21 @@ target_month = input("Enter the month you want to reach it by: ")
 
 
 # ---------- PART 3: store the practice time ----------
+# YOUR CODE HERE
 daily_minutes = 30
 # Store the number 30 in a variable called daily_minutes.
 # Type it as 30, NOT as "30".
 
 
 # ---------- PART 4: the heading ----------
+# YOUR CODE HERE
 print("\nMY PERSONAL GOAL PLAN\n")
 # Print MY PERSONAL GOAL PLAN with one blank line above it and one below.
 # Do it in a single print() using \n at the start and the end.
 
 
 # ---------- PART 5: the four plan lines ----------
-
+# YOUR CODE HERE
 print("Name:", person_name)
 print("Goal:", goal_name)
 print("Target month:", target_month)
@@ -48,7 +51,7 @@ print("Daily practice: ", daily_minutes, "minutes")
 
 
 # ---------- PART 6: two lines that join up ----------
-
+# YOUR CODE HERE
 print("Status:", end=" ")
 print("Not started")
 
@@ -62,7 +65,7 @@ print("Practise every day!")
 
 
 # ---------- PART 7: the sentence and the keywords ----------
-
+# YOUR CODE HERE
 print("In one sentence:")
 print(person_name, "plans to work on", goal_name, "for", daily_minutes, "minutes every day until", target_month)
 
